@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFrameworks>net8.0;netstandard2.0</TargetFrameworks>
+
+        <Company>Bruno Carmena - https://brunocarmena.netlify.app</Company>
+        <Authors>Bruno Carmena</Authors>
+        <Description>A repository abstraction package for common repository operations.</Description>
+
+        <PackageId>Bruno57.Repository.Abstractions</PackageId>
+        <Title>Bruno57.Repository.Abstractions</Title>
+        <PackageTags>repository-pattern;repository;ddd;abstractions</PackageTags>
+        <RepositoryType>git</RepositoryType>
+        <RepositoryUrl>https://github.com/brunocarmen57/Repository-pattern</RepositoryUrl>
+        <Version>1.0.1</Version>
+
+        <PackageReadmeFile>README.md</PackageReadmeFile>
+        <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    </PropertyGroup>
+    
+    <ItemGroup>
+        <None Include="docs\README.md" Pack="True" PackagePath=""/>
+        <None Include="LICENSE" Pack="True" PackagePath=""/>
+    </ItemGroup>
+    
+</Project>
